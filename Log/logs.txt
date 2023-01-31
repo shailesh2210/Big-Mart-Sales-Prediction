@@ -1,0 +1,23 @@
+2022-12-31 02:12:07,903 Reading the dataset
+2022-12-31 02:12:09,909 the shape of the traning dataset is 8523 , 12
+2022-12-31 02:12:10,671 the shape of the test dataset is 5681 , 11
+2022-12-31 02:12:12,760 there are some missing values in train and test dataset in item weight and outlet size
+2022-12-31 02:12:13,529 lets start data cleaning....
+2022-12-31 02:12:17,882  we successfully replace missing values with mean from the column Item Weight
+2022-12-31 02:12:18,320 Outlet size columns is categorical column so we can replace with mode
+2022-12-31 02:12:20,010  we successfully replace missing values with mode from the column Outlet size
+2022-12-31 02:12:23,653 Explolatary Data Analysis
+2022-12-31 02:12:23,829 Univariate Analysis
+2022-12-31 02:12:26,623 done univariate analysis
+2022-12-31 02:12:26,815 Bivariate analaysis
+2022-12-31 02:12:30,566 done bivariate analysis
+2022-12-31 02:12:30,734 Multivariate analysis
+2022-12-31 02:12:40,949 Feature Engineering
+2022-12-31 02:12:41,585 Label Encoding
+2022-12-31 02:12:43,704 splitting training data into x and y
+2022-12-31 02:12:44,455 standardization
+2022-12-31 02:12:44,762 Model Building
+2022-12-31 02:12:56,704 Hyperparameter Tunning
+2022-12-31 02:18:25,206 done....
+2022-12-31 02:18:25,917 saving model into pickle file
+2022-12-31 02:18:31,612 successfully completed.....
